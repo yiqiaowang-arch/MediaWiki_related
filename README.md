@@ -163,7 +163,7 @@ INFO[0000] Can't find MMDB, start download
 
 ```yaml
 proxy-groups: # 策略组，如果文件里已经有，就不需要重复添加
-	- { name: '(设置的策略名称)', type: select, proxies: [DIRECT] } # 不走代理，直接连接
+    - { name: '(设置的策略名称)', type: select, proxies: [DIRECT] } # 不走代理，直接连接
 ```
 
 因为之后要涉及Ubuntu命令行中的下载，如果腾讯云的下载源走了代理，就会下不下来；但有些内容又必须要代理才能下载，所以需要手动设置代理策略，以绕开腾讯云的链接。

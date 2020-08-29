@@ -1,3 +1,5 @@
+# 公网MediaWiki站点搭建全流程攻略·小白向（含MediaWiki和Parsoid）
+
 **关键词**：MediaWiki-1.34.2、Ubuntu 18.04、腾讯云、Wiki、VisualEditor、Parsoid
 
 **包含**：打开VisualEditor时，Parsoid 404的一个解决办法，详见Parsoid安装部分。
@@ -13,19 +15,19 @@
 
 **01 基于Ubuntu的基本环境配置**
 
-i 软件
+  i 软件
 
-ii 基本服务的安装
-
-iii 基于Clash设置系统黛礼
+  ii 基本服务的安装
+  
+  iii 基于Clash设置系统黛礼
 
 **02 安装和配置MediaWiki**
 
 i 配置Apache
 
-  网络与防火墙
+   *网络与防火墙*
   
-  文件格式检索顺序
+   *文件格式检索顺序*
   
 ii 配置MySQL
 
@@ -35,35 +37,37 @@ iiii 配置虚拟主机Virtual Host（推荐）
 
 iiiii 安装MediaWiki
 
-  下载并解压安装包
+  *下载并解压安装包*
   
-  安装过程
+  *安装过程*
   
-  数据库配置
+  *数据库配置*
   
-  扩展选择
+  *扩展选择*
   
 **03 Parsoid和VisualEditor的安装（MediaWiki 1.35以下）**
 
-VisualEditor安装
+  VisualEditor安装
 
-Parsoid安装
+  Parsoid安装
 
-其他扩展的安装
+  其他扩展的安装
 
-手机友好界面MobileFrontend
+  手机友好界面MobileFrontend
 
-短URL的设置
+  短URL的设置
 
 **参考链接**
 
-基本环境配置
+  基本环境配置
 
-黛礼设置
+  黛礼设置
 
-安装教程
+  安装教程
 
-Parsoid 404问题
+  Parsoid 404问题
+  
+  *以下为正文*
     
 ## 00 服务器和域名选购
 
